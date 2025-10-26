@@ -22,6 +22,20 @@ Complete the function that solves Feynman's question in general. The input to yo
 ---
 
 ## Solution
+
+Mathematical Formula
+I recognize this pattern! The number of squares in an N×N grid is given by the formula:
+
+<img width="443" height="88" alt="image" src="https://github.com/user-attachments/assets/4840905a-0bc2-441d-ac0e-346b01af7374" />
+
+Let's verify:
+
+```
+- N=1: 1*2*3/6 = 6/6 = 1 ✓
+- N=2: 2*3*5/6 = 30/6 = 5 ✓
+- N=3: 3*4*7/6 = 84/6 = 14 ✓
+- N=4: 4*5*9/6 = 180/6 = 30 ✓
+```
 ```
 function countSquares(n) {
     let total = 0;
