@@ -72,10 +72,11 @@ circle1 = 10, 20, 42
 circle2 = -100, -42, 69
 ```
 As we see, the vector's cartesian coordinates are x=5, y=5, first's circle's center is in x=10, y=20, it's radius is 42, and so on. Let's visualize it:
+
 <img width="498" height="491" alt="image" src="https://github.com/user-attachments/assets/e495b192-40bd-4e78-bbb6-cc072b362bbe" />
 
-
 The red dot is our given vector. After running our function we should get our new, mapped vector with coordinates x=-108.21, y=-66.64. Take a look at the light-blue dot here:
+
 <img width="503" height="513" alt="image" src="https://github.com/user-attachments/assets/affdac71-9df5-4469-932e-d34b8ce654b9" />
 
 
