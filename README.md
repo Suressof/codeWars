@@ -100,3 +100,21 @@ Enjoy, and don't hesitate to comment on any mistakes or problems with this kata.
 
 ## Solution
 <img width="782" height="499" alt="image" src="https://github.com/user-attachments/assets/a82029a0-90b2-4479-affc-d9a1c83ea1f3" />
+
+# Sum of positive
+## Task
+You get an array of numbers, return the sum of all of the positives ones.
+
+## Example
+```
+[1, -4, 7, 12] => 1+7+12=20
+```
+## Note
+If there is nothing to sum, the sum is default to 0.
+
+## Solution
+```
+function positiveSum(arr) {
+    return arr.reduce((sum, num) => num > 0 ? sum + num : sum, 0);
+}
+```
